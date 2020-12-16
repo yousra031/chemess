@@ -1,0 +1,198 @@
+body {
+     margin: 0;
+     front-family: system-ui;
+
+}
+.parallax, .parallaxl {
+    background-image: URL('https://www.thespruce.com/thmb/4aP5sz0RBo_N_cWAZf_-UODR5k4=/1500x844/smart/filters:no_upscale()/how-to-use-cleaning-products-4799718_hero_0604-7c62517a7ba1401d971833b1d60e4f46.jpg');
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-title {
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 100px;
+    font-family: fantasy
+    letter-spacing: 20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+.menu {
+  background: #184d47;
+  text-align: center;
+}
+
+.menu-ul{
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.menu-ul li {
+  font-size: 17px;
+  list-style: none;
+  display: inline-block;
+  padding: 25px 25px 26px 25px;
+}
+
+.a-menu, .a-links{
+  text-decoration: none;
+  color: white;
+}
+
+.menu-ul li:hover {
+  background: #5b8c5a;
+  transform: scale(1.1);
+}
+
+.search-box{
+  border: 1px Solid white;
+  border-radius: 50px;
+  background: white;
+  width: max-content;
+  display: inline-block;
+  margin: 8px;
+}
+
+.search-box:hover{
+  box-shadow: 0 0 10px 2px #5b8c5a;
+  border: 1px Solid #5b8c5a;
+}
+
+.search-input {
+  width: 250px;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  background: transparent;
+  margin: 7px 0 0 7px;
+}
+
+i {
+  font-size: 40px;
+  margin: 0 10px 0 0;
+}
+
+button{
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.container{
+  margin:50px 50px 5%;
+  width: 90%;
+  text-align:center;
+}
+
+.categories, .items {
+  width: max-content;
+  margin: 25px;
+  border: 1px Solid #184d47;
+  border-radius: 0 0 50px 50px;
+  display: inline-block;
+}
+
+.categories:hover, .items:hover {
+  box-shadow: 0 0 10px 3px #184d47;
+}
+
+.item-image{
+  height: 200px;
+  width:200px;
+  border-radius:0 0 50px 50px;
+  padding: 10px;
+}
+
+.image-title {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.title{
+  padding: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  color: white;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.Contactez{
+  padding: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  margin: 20px;
+  max-width: 20%;
+  background: #184d47;
+  }
+
+.images{
+  display: inline-block;
+}
+
+.item-image-size {
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+}
+.description, .prix{
+  margin: 20px;
+  min-height: 70px;
+
+}
+
+.footer{
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 20px;
+}
+
+.quick-links{
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  display: inline-block;
+  min-width: 30%;
+}
+
+.quick-links ul{
+  padding: 0
+}
+
+.quick-links li{
+  list-style: none;
+  padding: 10px;
+  font-weight: 300;
+}
+
+.a-links:hover{
+  color: #fd5e53;
+}
+
+.copyrights{
+  font-size: 16px;
+  font-family: verdana, arial, sans-serif;
+  text-align: center;
+  margin: 15px;
+}
